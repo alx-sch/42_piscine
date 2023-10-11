@@ -6,18 +6,19 @@
 /*   By: aschenk <aschenk@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 13:32:36 by aschenk           #+#    #+#             */
-/*   Updated: 2023/10/10 16:13:57 by aschenk          ###   ########.fr       */
+/*   Updated: 2023/10/11 11:37:00 by aschenk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 /*
-Concatenates the characters of 'src' onto the end of 'dest'
+Concatenates up to 'nb' characters of 'src' onto the end of 'dest'
 and properly null-terminates the resulting string.
 
 dest:	Destination string.
 src:	Source string to be appended.
+nb:		Maximum number of characters from 'scr' to append.
 
-Returns: A pointer to the destination string 'dest' (now concatenated).
+Returns: Destination string 'dest' (now concatenated).
 */
 char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
