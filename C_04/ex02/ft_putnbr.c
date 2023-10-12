@@ -6,7 +6,7 @@
 /*   By: aschenk <aschenk@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/10 21:28:19 by aschenk           #+#    #+#             */
-/*   Updated: 2023/10/11 16:04:15 by aschenk          ###   ########.fr       */
+/*   Updated: 2023/10/12 11:27:50 by aschenk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	ft_putchar(char a)
 }
 
 /*
-Valid input for in: -2147483648 -- 2147483647
+Valid input for int: -2147483648 -- 2147483647
 Character conversion: int (single digit) + '0' -> char
 Recursion, unwinds once first return reached and then goes 'out'a again:
 -	ft_putnbr(-1234) calls ft_putnbr(123); prints "-" (a) (outside rec.)
