@@ -6,7 +6,7 @@
 /*   By: aschenk <aschenk@student.42berlin.de>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/04 12:30:22 by aschenk           #+#    #+#             */
-/*   Updated: 2023/10/10 12:02:32 by aschenk          ###   ########.fr       */
+/*   Updated: 2023/10/18 22:55:30 by aschenk          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,7 @@ char	*ft_strncpy(char *dest, char *src, unsigned int n)
 		dest[count] = src[count];
 		count++;
 	}
-	while (count <= n)
+	while (count < n)
 	{
 		dest[count] = '\0';
 		count++;
