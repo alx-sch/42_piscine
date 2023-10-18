@@ -1,2 +1,2 @@
 # 42_piscine
-WIP -- Most of what I came up with during the 4 week piscine at @42 Berlin
+All the work done during the Piscine @42 Berlin that began on 09/25/2023.
