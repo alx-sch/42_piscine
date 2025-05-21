@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_str_is_printable.c                              :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: aschenk <aschenk@student.42berlin.de>      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/04 12:34:43 by aschenk           #+#    #+#             */
-/*   Updated: 2023/10/05 18:36:56 by aschenk          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 //  The ASCII characters with codes in the range 0 to 31 and 127 (decimal) are
 //  invisible, i.e., they do not represent printable characters on the screen.
 

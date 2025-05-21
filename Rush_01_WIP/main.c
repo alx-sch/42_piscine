@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: aschenk <aschenk@student.42berlin.de>      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/07 15:06:52 by rbielski          #+#    #+#             */
-/*   Updated: 2023/10/08 23:29:44 by aschenk          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 int		check_args(int arg_c, const char *str_arg);
 void	initialize_int_arr(int arr[]);
 void	create_arg_int_array(const char *str_arg, int int_arr[]);

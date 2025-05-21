@@ -1,15 +1,3 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   initialize_char_array_functions.c                  :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: aschenk <aschenk@student.42berlin.de>      +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/15 13:58:35 by aschenk           #+#    #+#             */
-/*   Updated: 2023/10/15 21:52:30 by aschenk          ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
-
 char	*ft_strcpy(char *dest, char *src);
 
 void	initialize_empty_string(char *str)
